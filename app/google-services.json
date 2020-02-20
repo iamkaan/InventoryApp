@@ -1,0 +1,188 @@
+{
+  "project_info": {
+    "project_number": "8884708575",
+    "firebase_url": "https://stack-overflow-72ad6.firebaseio.com",
+    "project_id": "stack-overflow-72ad6",
+    "storage_bucket": "stack-overflow-72ad6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8884708575:android:f4324c85dff5eca1",
+        "android_client_info": {
+          "package_name": "com.iamkaan.d"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8884708575-rvjrn1b0nmts2idsld2plajo7s7b0mla.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamkaan.d",
+            "certificate_hash": "667a53dfaf627ef6ce31caebbe31d8219f11a2c8"
+          }
+        },
+        {
+          "client_id": "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoHtUeFle0XTWa__1gcUdi8mzMTLqKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8884708575-3m9lckeg6e6rtfqlg2j6fnhmp5b1qpi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8884708575:android:56ea0c91793ff43c",
+        "android_client_info": {
+          "package_name": "com.iamkaan.dragon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8884708575-74vp7jol4hkh082g08c3li6d5ss3kodo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamkaan.dragon",
+            "certificate_hash": "b15e208e336647f43a601a4f162e5882e43bd281"
+          }
+        },
+        {
+          "client_id": "8884708575-66e9te2iie0ifakc2tesp9f2mtdp6spu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamkaan.dragon",
+            "certificate_hash": "b0efe68206b88267acad88d6820c83645fd96ac6"
+          }
+        },
+        {
+          "client_id": "8884708575-8f2h2evaenu87km5l5dusvmrff65f2tk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iamkaan.dragon",
+            "certificate_hash": "667a53dfaf627ef6ce31caebbe31d8219f11a2c8"
+          }
+        },
+        {
+          "client_id": "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoHtUeFle0XTWa__1gcUdi8mzMTLqKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8884708575-3m9lckeg6e6rtfqlg2j6fnhmp5b1qpi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8884708575:android:cc31d8052b7fecc4f7f56a",
+        "android_client_info": {
+          "package_name": "com.iamkaan.inventory"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoHtUeFle0XTWa__1gcUdi8mzMTLqKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8884708575-3m9lckeg6e6rtfqlg2j6fnhmp5b1qpi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8884708575:android:c0637a5791fd2288",
+        "android_client_info": {
+          "package_name": "com.iamkaan.stackoverflow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoHtUeFle0XTWa__1gcUdi8mzMTLqKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8884708575-3m9lckeg6e6rtfqlg2j6fnhmp5b1qpi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8884708575:android:734199caef220766",
+        "android_client_info": {
+          "package_name": "com.lnicolet.smallbizhack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8884708575-ct78g3njp7g55nsjg4t783a2stq39b65.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXoHtUeFle0XTWa__1gcUdi8mzMTLqKc0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8884708575-3m9lckeg6e6rtfqlg2j6fnhmp5b1qpi0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

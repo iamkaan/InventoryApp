@@ -1,0 +1,37 @@
+package com.iamkaan.inventory2.ui.home
+
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import android.widget.TextView
+import androidx.recyclerview.widget.RecyclerView
+import com.iamkaan.inventory2.R
+import com.iamkaan.inventory2.model.InventoryItem
+
+class InventoryAdapter : RecyclerView.Adapter<InventoryAdapter.ViewHolder>() {
+
+    private var list: List<InventoryItem> = listOf()
+
+    fun update(list: List<InventoryItem>) {
+        this.list = list
+        notifyDataSetChanged()
+    }
+
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
+        val itemView =
+            LayoutInflater.from(parent.context).inflate(R.layout.item_inventory_list, parent, false)
+        return ViewHolder(itemView)
+    }
+
+    override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        holder.title.text = list[position].title
+        holder.quantity.text = list[position].quantity.toString()
+    }
+
+    override fun getItemCount() = list.size
+
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val title: TextView = itemView.findViewById(R.id.title)
+        val quantity: TextView = itemView.findViewById(R.id.quantity)
+    }
+}
