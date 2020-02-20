@@ -25,7 +25,7 @@ class SettingsFragment : Fragment() {
         signInInfo = root.findViewById(R.id.sign_in_info)
         val signInButton: View = root.findViewById(R.id.google_sign_in)
 
-        authManager = AuthenticationManager(activity!!)
+        authManager = AuthenticationManager()
         updateSignInInfo()
 
         signInButton.setOnClickListener {
@@ -50,6 +50,6 @@ class SettingsFragment : Fragment() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-        authManager.onActivityResult(requestCode, resultCode, data)
+        authManager.onActivityResult(context!!, requestCode, resultCode, data)
     }
 }

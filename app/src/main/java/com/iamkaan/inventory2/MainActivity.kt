@@ -27,9 +27,9 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        val authManager = AuthenticationManager(this)
+        val authManager = AuthenticationManager()
         if (!authManager.isSignedIn()) {
-            authManager.signInAnonymously { }
+            authManager.signInAnonymously(this) { }
         }
     }
 }
