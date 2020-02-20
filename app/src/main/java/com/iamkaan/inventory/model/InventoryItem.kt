@@ -1,3 +1,3 @@
 package com.iamkaan.inventory.model
 
-data class InventoryItem(var title: String)
+data class InventoryItem(var title: String = "")
